@@ -52,7 +52,7 @@ namespace NumbersGame  //Johanna Marklund .NET23
             Console.WriteLine("Välkommen! Jag tänker på ett tal mellan 1 och 20. Kan du gissa vilket? Du får fem försök.");
 
             Random random = new Random();
-            int randomNumber = random.Next(1, 21);
+            int randomNumber = random.Next(1, 21); // Generates a random number between 1 and 21. 
 
             int maxAllowedTries = 5;
             int numberOfTries = 0;
