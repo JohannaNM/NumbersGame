@@ -13,9 +13,10 @@ namespace NumbersGame  //Johanna Marklund .NET23
 
         public static bool ResetGame() // Resets the game if user press J
         { 
-            Console.WriteLine("Vill du spela igen? J för ja:  ");
+            Console.WriteLine("Vill du spela igen? tryck på J för JA. ");
             if (Console.ReadKey().Key == ConsoleKey.J)
             {
+                Console.WriteLine("");
                 PlayGame();
                 return true;
             }
